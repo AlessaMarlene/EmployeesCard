@@ -1,0 +1,48 @@
+:root{
+    --color-caja: #f7f5ec;
+    --font-texto: tahoma;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.profiles{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profiles div{
+    background-color: var(--color-caja);
+    width: 25%;
+    text-align: center;
+    font-family: var(--font-texto);
+    padding: 20px;
+}
+
+.profiles div img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.profiles div p:first-of-type{
+    font-size: larger;
+    margin: 30px 0 10px 0;
+}
+
+.profiles div p:last-child{
+    font-size: x-small;
+}
